@@ -1,0 +1,30 @@
+{
+"manifest_version": 2,
+"version": "1",
+  "description": "First theme by Binsquare",
+  "name": "Gradient Theme",
+  "theme": {
+    "images" : {
+      "theme_frame" : "images/theme_frame_gradient.png",
+      "theme_ntp_background" : "images/theme_ntp_background_norepeat.png"
+              },
+    "colors" : {
+      "frame" : [0, 0, 0, 0],
+      "toolbar" : [255, 106, 106, 0],
+      "ntp_text" : [0, 191, 255, 0.5],
+      "ntp_link" : [255, 106, 106, 0.5],
+      "ntp_section" : [255, 106, 106, 0.5],
+      "button_background" : [0, 0, 0, 0],
+      "theme_frame_overlay": [255, 106, 106, 0.5],
+      "theme_frame": [255, 106, 106, 0.5],
+      "theme_toolbar": [255, 106, 106, 0.0],
+      "theme_tab_background": [255, 106, 106, 0.5]
+    },
+    "tints" : {
+      "buttons" : [0.33, 0.5, 0.47]
+    },
+    "properties" : {
+      "ntp_background_alignment" : "bottom"
+    }
+  }
+}
